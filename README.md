@@ -87,7 +87,7 @@ Na primeira execução, o Flyway cria automaticamente as tabelas a partir das mi
 ## Autor
 
 **Alexsandro Baliero**
-[LinkedIn(linkedin.com/in/alexsandro-fernandes-99736568)] · [GitHub(https://github.com/AlexsandroBaliero)]
+[linkedin.com/in/alexsandro-fernandes-99736568] · [https://github.com/AlexsandroBaliero]
 
 ---
 *Projeto em desenvolvimento contínuo, parte da minha transição de carreira para o desenvolvimento backend.*
