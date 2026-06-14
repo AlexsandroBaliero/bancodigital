@@ -18,6 +18,10 @@ public class ContaCorrenteEntity extends ContaEntity {
         super(numero, saldo, titular);
         this.limite = limite;
     }
-
+    public ContaCorrenteEntity(Long id, String numero, BigDecimal saldo,
+                               ClienteEntity titular, BigDecimal limite) {
+        super(id, numero, saldo, titular);
+        this.limite = limite;
+    }
     public BigDecimal getLimite() { return limite; }
 }

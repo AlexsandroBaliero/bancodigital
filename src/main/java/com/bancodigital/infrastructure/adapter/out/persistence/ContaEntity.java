@@ -40,6 +40,12 @@ public abstract class ContaEntity {
         this.saldo = saldo;
         this.titular = titular;
     }
+    protected ContaEntity(Long id, String numero, BigDecimal saldo, ClienteEntity titular) {
+        this.id = id;
+        this.numero = numero;
+        this.saldo = saldo;
+        this.titular = titular;
+    }
 
     public Long getId() { return id; }
     public String getNumero() { return numero; }

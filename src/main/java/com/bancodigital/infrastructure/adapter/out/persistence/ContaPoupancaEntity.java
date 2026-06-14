@@ -13,4 +13,7 @@ public class ContaPoupancaEntity extends ContaEntity {
     public ContaPoupancaEntity(String numero, BigDecimal saldo, ClienteEntity titular) {
         super(numero, saldo, titular);
     }
+    public ContaPoupancaEntity(Long id, String numero, BigDecimal saldo, ClienteEntity titular) {
+        super(id, numero, saldo, titular);
+    }
 }
