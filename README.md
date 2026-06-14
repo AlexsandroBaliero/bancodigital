@@ -70,7 +70,7 @@ com.bancodigital
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/bancodigital.git
+   git clone https://github.com/AlexsandroBaliero/bancodigital.git
    ```
 
 2. Crie um banco de dados no PostgreSQL chamado `bancodigital`.
@@ -87,7 +87,7 @@ Na primeira execução, o Flyway cria automaticamente as tabelas a partir das mi
 ## Autor
 
 **Alexsandro Baliero**
-[LinkedIn](#) · [GitHub](#)
+[LinkedIn(linkedin.com/in/alexsandro-fernandes-99736568)] · [GitHub(https://github.com/AlexsandroBaliero)]
 
 ---
 *Projeto em desenvolvimento contínuo, parte da minha transição de carreira para o desenvolvimento backend.*
