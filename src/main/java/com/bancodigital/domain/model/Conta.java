@@ -1,8 +1,6 @@
 package com.bancodigital.domain.model;
-
 import com.bancodigital.domain.exception.SaldoInsuficienteException;
-import com.bancodigital.domain.exception.RecursoNaoEncontradoException;
-
+import com.bancodigital.domain.exception.ValorInvalidoException;
 import java.math.BigDecimal;
 
 public abstract class Conta {
@@ -30,7 +28,7 @@ public abstract class Conta {
 
     protected void validarValor(BigDecimal valor) {
         if (valor == null || valor.compareTo(BigDecimal.ZERO) <= 0) {
-            throw new RecursoNaoEncontradoException("O valor deve ser maior que zero.");
+            throw new ValorInvalidoException("O valor deve ser maior que zero.");
         }
     }
 
